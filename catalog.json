@@ -43,6 +43,26 @@
       "Peace Mango Watermelon",
       "Grape Burst"
      ]
+    },
+    {
+     "name": "новый",
+     "stock": 0,
+     "flavors": []
+    },
+    {
+     "name": "новый",
+     "stock": 0,
+     "flavors": []
+    },
+    {
+     "name": "новый",
+     "stock": 0,
+     "flavors": []
+    },
+    {
+     "name": "новый",
+     "stock": 0,
+     "flavors": []
     }
    ],
    "tiers": [
@@ -107,5 +127,5 @@
   "telegram": "KIOSKI_support",
   "reviewsUrl": "https://t.me/KIOSKI_support"
  },
- "updated": "2026-10-22T18:18:52.934Z"
+ "updated": "2026-10-22T18:20:26.966Z"
 }
