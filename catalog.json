@@ -1,6 +1,49 @@
 {
  "products": [
   {
+   "id": "p2",
+   "name": {
+    "ru": "Marlboro ",
+    "en": "CIGARETTE PACK",
+    "fi": "TUPAKKA-ASKI"
+   },
+   "desc": {
+    "ru": "",
+    "en": "",
+    "fi": ""
+   },
+   "image": "",
+   "variants": [
+    {
+     "name": "Gold",
+     "stock": 0,
+     "flavors": []
+    },
+    {
+     "name": "Red",
+     "stock": 0,
+     "flavors": []
+    }
+   ],
+   "tiers": [
+    {
+     "min": 1,
+     "price": 70
+    },
+    {
+     "min": 4,
+     "price": 60
+    },
+    {
+     "min": 10,
+     "price": 50
+    }
+   ],
+   "stock": 0,
+   "tag": "new",
+   "wholesaleThreshold": 50
+  },
+  {
    "id": "p1",
    "name": {
     "ru": "FIZZY SMART 150K",
@@ -108,54 +151,11 @@
    "stock": 0,
    "tag": "sale",
    "wholesaleThreshold": 50
-  },
-  {
-   "id": "p2",
-   "name": {
-    "ru": "Marlboro ",
-    "en": "CIGARETTE PACK",
-    "fi": "TUPAKKA-ASKI"
-   },
-   "desc": {
-    "ru": "",
-    "en": "",
-    "fi": ""
-   },
-   "image": "",
-   "variants": [
-    {
-     "name": "Gold",
-     "stock": 0,
-     "flavors": []
-    },
-    {
-     "name": "Red",
-     "stock": 0,
-     "flavors": []
-    }
-   ],
-   "tiers": [
-    {
-     "min": 1,
-     "price": 70
-    },
-    {
-     "min": 4,
-     "price": 60
-    },
-    {
-     "min": 10,
-     "price": 50
-    }
-   ],
-   "stock": 0,
-   "tag": "new",
-   "wholesaleThreshold": 50
   }
  ],
  "settings": {
   "telegram": "KIOSKI_support",
   "reviewsUrl": "https://t.me/KIOSKI_support"
  },
- "updated": "2026-10-22T18:23:14.062Z"
+ "updated": "2026-10-22T18:23:37.141Z"
 }
