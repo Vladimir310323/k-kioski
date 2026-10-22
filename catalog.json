@@ -77,6 +77,16 @@
     {
      "name": "Fizzy Cherry + 3",
      "stock": 0,
+     "flavors": [
+      "Fizzy Cherry",
+      "Strawberry Dragon Fruit",
+      "Lemon Lime",
+      "Blueberry Coconut"
+     ]
+    },
+    {
+     "name": "новый",
+     "stock": 0,
      "flavors": []
     }
    ],
@@ -142,5 +152,5 @@
   "telegram": "KIOSKI_support",
   "reviewsUrl": "https://t.me/KIOSKI_support"
  },
- "updated": "2026-10-22T18:22:37.203Z"
+ "updated": "2026-10-22T18:22:46.814Z"
 }
