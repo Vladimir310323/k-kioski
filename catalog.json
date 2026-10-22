@@ -26,12 +26,12 @@
     },
     {
      "name": "Blueberry Sour Raspberry + 3",
-     "stock": 0,
+     "stock": 5,
      "flavors": []
     },
     {
-     "name": "новый",
-     "stock": 0,
+     "name": "Strawberry Ice + 3",
+     "stock": 3,
      "flavors": []
     }
    ],
@@ -86,5 +86,5 @@
   "telegram": "KIOSKI_support",
   "reviewsUrl": "https://t.me/KIOSKI_support"
  },
- "updated": "2026-10-22T18:02:48.642Z"
+ "updated": "2026-10-22T18:03:11.888Z"
 }
