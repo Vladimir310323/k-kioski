@@ -19,7 +19,9 @@
      "stock": 0,
      "flavors": [
       "Black Berry Raspberry",
-      "Watermelon Cherry Ice"
+      "Watermelon Cherry Ice",
+      "Strawberry Grape",
+      "Passion Fruit"
      ]
     },
     {
@@ -84,5 +86,5 @@
   "telegram": "KIOSKI_support",
   "reviewsUrl": "https://t.me/KIOSKI_support"
  },
- "updated": "2026-10-22T18:01:29.489Z"
+ "updated": "2026-10-22T18:02:00.411Z"
 }
