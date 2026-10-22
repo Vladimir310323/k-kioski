@@ -37,7 +37,11 @@
     {
      "name": "Strawberry Ice + 3",
      "stock": 3,
-     "flavors": []
+     "flavors": [
+      "Strawberry Ice",
+      "Kiwi Passion Fruit Guava",
+      "Pea"
+     ]
     }
    ],
    "tiers": [
@@ -91,5 +95,5 @@
   "telegram": "KIOSKI_support",
   "reviewsUrl": "https://t.me/KIOSKI_support"
  },
- "updated": "2026-10-22T18:05:33.543Z"
+ "updated": "2026-10-22T18:06:05.953Z"
 }
