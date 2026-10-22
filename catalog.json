@@ -1,0 +1,225 @@
+{
+ "products": [
+  {
+   "id": "p1",
+   "name": {
+    "ru": "FIZZY SMART 150K",
+    "en": "FIZZY SMART 150K",
+    "fi": "FIZZY SMART 150K"
+   },
+   "desc": {
+    "ru": "15 в 1 · 28ml · Type-C · LED",
+    "en": "15 in 1 · 28ml · Type-C · LED",
+    "fi": "15 in 1 · 28ml · Type-C · LED"
+   },
+   "image": "",
+   "variants": [
+    {
+     "name": "Watermelon Ice",
+     "stock": 12,
+     "flavors": [
+      "Watermelon Ice",
+      "Red Bull",
+      "Strawberry Raspberry",
+      "Triple Melon Ice"
+     ]
+    },
+    {
+     "name": "Strawberry Ice",
+     "stock": 6,
+     "flavors": [
+      "Strawberry Ice",
+      "Kiwi Passion Fruit Guava",
+      "Peach Mango Watermelon",
+      "Grape Burst"
+     ]
+    },
+    {
+     "name": "Strawberry Kiwi Pomegranate",
+     "stock": 8,
+     "flavors": [
+      "Strawberry Kiwi Pomegranate",
+      "Red Bull",
+      "Blueberry Cranberry Cherry",
+      "Pineapple Coconut"
+     ]
+    },
+    {
+     "name": "Strawberry Kiwi",
+     "stock": 5,
+     "flavors": [
+      "Strawberry Kiwi",
+      "Mixed Berry",
+      "Watermelon Bubble Gum",
+      "Juicy Peach"
+     ]
+    },
+    {
+     "name": "Sex On The Beach",
+     "stock": 9,
+     "flavors": [
+      "Sex On The Beach",
+      "Strawberry Banana",
+      "Blue Razz Lemonade",
+      "Raspberry Watermelon"
+     ]
+    },
+    {
+     "name": "Tropical Fruit Punch",
+     "stock": 0,
+     "flavors": [
+      "Tropical Fruit Punch",
+      "Cherry Melon",
+      "Blueberry Ice",
+      "Strawberry Skittles"
+     ]
+    },
+    {
+     "name": "Love 66",
+     "stock": 4,
+     "flavors": [
+      "Love 66",
+      "Strawberry Kiwi",
+      "Watermelon Blueberry",
+      "Black Ice Dragon Fruit Strawberry"
+     ]
+    },
+    {
+     "name": "Strawberry Raspberry",
+     "stock": 11,
+     "flavors": [
+      "Strawberry Raspberry",
+      "Pineapple Peach Passion Fruit",
+      "Fizzy Cola",
+      "Monster Mango"
+     ]
+    },
+    {
+     "name": "Black Berry Raspberry",
+     "stock": 7,
+     "flavors": [
+      "Black Berry Raspberry",
+      "Watermelon Cherry Ice",
+      "Strawberry Grape",
+      "Passion Fruit Orange Peach"
+     ]
+    },
+    {
+     "name": "Fizzy Cherry",
+     "stock": 3,
+     "flavors": [
+      "Fizzy Cherry",
+      "Strawberry Dragon Fruit",
+      "Lemon Lime",
+      "Blueberry Coconut"
+     ]
+    },
+    {
+     "name": "Strawberry Vanilla Coke",
+     "stock": 0,
+     "flavors": [
+      "Strawberry Vanilla Coke",
+      "Pink Lemonade",
+      "Watermelon Ice",
+      "Cherry Berry"
+     ]
+    },
+    {
+     "name": "Blueberry Sour Raspberry",
+     "stock": 14,
+     "flavors": [
+      "Blueberry Sour Raspberry",
+      "Strawberry Watermelon",
+      "Mojito",
+      "Menthol Mint"
+     ]
+    }
+   ],
+   "tiers": [
+    {
+     "min": 1,
+     "price": 30
+    },
+    {
+     "min": 10,
+     "price": 20
+    },
+    {
+     "min": 50,
+     "price": 15
+    }
+   ],
+   "stock": 0,
+   "tag": "new",
+   "wholesaleThreshold": 50
+  },
+  {
+   "id": "p2",
+   "name": {
+    "ru": "ПАЧКА СИГАРЕТ",
+    "en": "CIGARETTE PACK",
+    "fi": "TUPAKKA-ASKI"
+   },
+   "desc": {
+    "ru": "",
+    "en": "",
+    "fi": ""
+   },
+   "image": "",
+   "variants": [],
+   "tiers": [
+    {
+     "min": 1,
+     "price": 8
+    },
+    {
+     "min": 10,
+     "price": 7
+    }
+   ],
+   "stock": 100,
+   "tag": "",
+   "wholesaleThreshold": 10
+  },
+  {
+   "id": "p3",
+   "name": {
+    "ru": "ЖИДКОСТЬ 30ML",
+    "en": "E-LIQUID 30ML",
+    "fi": "NESTE 30ML"
+   },
+   "desc": {
+    "ru": "Соль никотина 20mg",
+    "en": "Nicotine salt 20mg",
+    "fi": "Nikotiinisuola 20mg"
+   },
+   "image": "",
+   "variants": [
+    {
+     "name": "Мята",
+     "stock": 0
+    },
+    {
+     "name": "Ягоды",
+     "stock": 0
+    }
+   ],
+   "tiers": [
+    {
+     "min": 1,
+     "price": 12
+    },
+    {
+     "min": 5,
+     "price": 10
+    }
+   ],
+   "stock": 0,
+   "tag": "sale"
+  }
+ ],
+ "settings": {
+  "telegram": "KIOSKI_support",
+  "reviewsUrl": "https://t.me/KIOSKI_support"
+ }
+}
