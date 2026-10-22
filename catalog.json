@@ -13,7 +13,23 @@
     "fi": "15 in 1 · 28ml · Type-C · LED"
    },
    "image": "",
-   "variants": [],
+   "variants": [
+    {
+     "name": "новый",
+     "stock": 0,
+     "flavors": []
+    },
+    {
+     "name": "новый",
+     "stock": 0,
+     "flavors": []
+    },
+    {
+     "name": "новый",
+     "stock": 0,
+     "flavors": []
+    }
+   ],
    "tiers": [
     {
      "min": 1,
@@ -65,5 +81,5 @@
   "telegram": "KIOSKI_support",
   "reviewsUrl": "https://t.me/KIOSKI_support"
  },
- "updated": "2026-10-22T17:42:52.461Z"
+ "updated": "2026-10-22T18:00:23.242Z"
 }
