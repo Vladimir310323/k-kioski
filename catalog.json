@@ -57,7 +57,12 @@
     {
      "name": "новый",
      "stock": 0,
-     "flavors": []
+     "flavors": [
+      "Love 66",
+      "Strawberry Kiwi",
+      "Watermelon Blueberry",
+      "Black Ice Dragon Fruit Strawberry"
+     ]
     },
     {
      "name": "новый",
@@ -132,5 +137,5 @@
   "telegram": "KIOSKI_support",
   "reviewsUrl": "https://t.me/KIOSKI_support"
  },
- "updated": "2026-10-22T18:21:31.458Z"
+ "updated": "2026-10-22T18:21:43.076Z"
 }
