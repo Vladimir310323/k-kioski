@@ -1,6 +1,34 @@
 {
  "products": [
   {
+   "id": "p1",
+   "name": {
+    "ru": "FIZZY SMART 150K",
+    "en": "FIZZY SMART 150K",
+    "fi": "FIZZY SMART 150K"
+   },
+   "desc": {
+    "ru": "",
+    "en": "15 in 1 · 28ml · Type-C · LED",
+    "fi": "15 in 1 · 28ml · Type-C · LED"
+   },
+   "image": "",
+   "variants": [],
+   "tiers": [
+    {
+     "min": 1,
+     "price": 30
+    },
+    {
+     "min": 10,
+     "price": 20
+    }
+   ],
+   "stock": 0,
+   "tag": "new",
+   "wholesaleThreshold": 50
+  },
+  {
    "id": "p2",
    "name": {
     "ru": "Marlboro ",
@@ -31,39 +59,11 @@
    "stock": 0,
    "tag": "",
    "wholesaleThreshold": 50
-  },
-  {
-   "id": "p1",
-   "name": {
-    "ru": "FIZZY SMART 150K",
-    "en": "FIZZY SMART 150K",
-    "fi": "FIZZY SMART 150K"
-   },
-   "desc": {
-    "ru": "",
-    "en": "15 in 1 · 28ml · Type-C · LED",
-    "fi": "15 in 1 · 28ml · Type-C · LED"
-   },
-   "image": "",
-   "variants": [],
-   "tiers": [
-    {
-     "min": 1,
-     "price": 30
-    },
-    {
-     "min": 10,
-     "price": 20
-    }
-   ],
-   "stock": 0,
-   "tag": "new",
-   "wholesaleThreshold": 50
   }
  ],
  "settings": {
   "telegram": "KIOSKI_support",
   "reviewsUrl": "https://t.me/KIOSKI_support"
  },
- "updated": "2026-10-22T17:41:54.829Z"
+ "updated": "2026-10-22T17:42:52.461Z"
 }
