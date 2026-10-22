@@ -47,7 +47,12 @@
     {
      "name": "Strawberry Kiwi Pomegranate + 3",
      "stock": 0,
-     "flavors": []
+     "flavors": [
+      "Strawberry Kiwi Pomegranate",
+      "Red Bull",
+      "Blueberry Cranberry Cherry",
+      "Pineapple Coconut"
+     ]
     },
     {
      "name": "новый",
@@ -127,5 +132,5 @@
   "telegram": "KIOSKI_support",
   "reviewsUrl": "https://t.me/KIOSKI_support"
  },
- "updated": "2026-10-22T18:20:42.864Z"
+ "updated": "2026-10-22T18:21:31.458Z"
 }
