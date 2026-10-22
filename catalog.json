@@ -79,7 +79,7 @@
      "flavors": []
     },
     {
-     "name": "новый",
+     "name": "Red",
      "stock": 0,
      "flavors": []
     }
@@ -107,5 +107,5 @@
   "telegram": "KIOSKI_support",
   "reviewsUrl": "https://t.me/KIOSKI_support"
  },
- "updated": "2026-10-22T18:18:10.179Z"
+ "updated": "2026-10-22T18:18:18.072Z"
 }
