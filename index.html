@@ -549,7 +549,6 @@ button{font-family:inherit;}
     <div class="ph-row">
       <div class="ph">ADMIN</div>
       <div style="display:flex;gap:8px">
-        <button class="backBtn" id="manualSaveBtn" title="Publish"><svg class="ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" stroke-linejoin="miter" ><path d="M12 20V5M6 11l6-6 6 6M4 21h16"/></svg></button>
         <button class="backBtn" id="aClose" title="Home"><svg class="ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" stroke-linejoin="miter" ><path d="M3 11l9-8 9 8"/><path d="M5 10v10h5v-6h4v6h5V10"/></svg></button>
       </div>
     </div>
@@ -737,11 +736,22 @@ async function fetchCatalog(){
   if(!r.ok) throw new Error("http "+r.status);
   return r.json();
 }
+function applyCatalog(d){
+  if(d.products) PRODUCTS=d.products;
+  if(d.settings) SETTINGS={...SETTINGS,...d.settings};
+  let saved=""; try{ saved=localStorage.getItem("kk_lastpub")||""; }catch(e){}
+  lastPubCore = saved || pubCore();   // что опубликовано — с этим сравниваем правки админа
+  // у админа витрина показывает его последние правки сразу, не дожидаясь пересборки GitHub Pages (1–5 мин)
+  const a=readAdminLS();
+  if(a && a.products && a.cfg && a.cfg.token){
+    PRODUCTS=a.products;
+    if(a.cfg.telegram) SETTINGS.telegram=a.cfg.telegram;
+    if(a.cfg.reviewsUrl!==undefined) SETTINGS.reviewsUrl=a.cfg.reviewsUrl;
+  }
+}
 async function loadPersisted(){
   try{
-    const d=await fetchCatalog();
-    if(d.products) PRODUCTS=d.products;
-    if(d.settings) SETTINGS={...SETTINGS,...d.settings};
+    applyCatalog(await fetchCatalog());
   }catch(e){ console.error("catalog.json не загрузился", e); showDataNotice(); }
 }
 // витрина подтягивает свежий catalog.json раз в минуту
@@ -749,9 +759,7 @@ function startLiveRefresh(){
   setInterval(async ()=>{
     if(document.hidden || adminOpen) return;
     try{
-      const d=await fetchCatalog();
-      if(d.products){ PRODUCTS=d.products; draw(); drawBar(); }
-      if(d.settings) SETTINGS={...SETTINGS,...d.settings};
+      applyCatalog(await fetchCatalog()); draw(); drawBar();
     }catch(e){}
   }, 60000);
 }
@@ -813,15 +821,16 @@ function loadAdminData(){
   purgeOldSales();
 }
 let dirty=false, saveDebounceTimer=null;
-function setDirty(v){ dirty=v; const b=document.getElementById("manualSaveBtn"); if(b) b.style.color=v?"var(--amber)":""; }
+function setDirty(v){ dirty=v; const b=document.getElementById("aClose"); if(b) b.style.color=v?"var(--amber)":""; }
 let autoPubTimer=null, lastPubCore="", pubBusy=false;
+const pubCore=()=>JSON.stringify({products:PRODUCTS, settings:{telegram:SETTINGS.telegram, reviewsUrl:SETTINGS.reviewsUrl}});
 async function save(){
   try{
     adminCfg();
     ADMIN.products=PRODUCTS; ADMIN.sales=SALES; ADMIN.purchases=PURCHASES;
     ADMIN.ts=Date.now();
     localStorage.setItem(LS_ADMIN, JSON.stringify(ADMIN));
-    setDirty(true);
+    setDirty(pubCore()!==lastPubCore);   // «не опубликовано» — только если реально изменилось то, что видит витрина
     schedulePublish(); scheduleCloudPush();
   }catch(e){ console.error("save failed", e); }
 }
@@ -833,14 +842,15 @@ function schedulePublish(){
   autoPubTimer=setTimeout(async()=>{
     if(pubBusy){ schedulePublish(); return; }
     try{ await publish(); setDirty(false); flash(); }
-    catch(e){ console.error("auto publish", e); const b=document.getElementById("manualSaveBtn"); if(b) b.style.color="var(--red,#e07a7a)"; }
+    catch(e){ console.error("auto publish", e); const b=document.getElementById("aClose"); if(b) b.style.color="var(--red,#e07a7a)"; }
   },4000);
 }
 function toB64(s){ return btoa(unescape(encodeURIComponent(s))); }
 // публикация каталога: через GitHub API (если указан репозиторий+токен), иначе — скачивание catalog.json
 async function publish(){
   const cfg=adminCfg();
-  const core=JSON.stringify({products:PRODUCTS, settings:{telegram:SETTINGS.telegram, reviewsUrl:SETTINGS.reviewsUrl}});
+  while(pubBusy) await new Promise(r=>setTimeout(r,300));   // не публикуем одновременно (иначе конфликт версий на GitHub)
+  const core=pubCore();
   const body=JSON.stringify({...JSON.parse(core), updated:new Date().toISOString()},null,1);
   if(cfg.repo && cfg.token){
     if(core===lastPubCore) return "same"; // ничего не изменилось — пустых коммитов не делаем
@@ -854,13 +864,11 @@ async function publish(){
     const p=await fetch(url,{method:"PUT",headers:H,body:JSON.stringify({message:"catalog update",content:toB64(body),sha})});
     if(!p.ok) throw new Error("GitHub "+p.status);
     lastPubCore=core;
+    try{ localStorage.setItem("kk_lastpub", core); }catch(e){}
     return "github";
     } finally { pubBusy=false; }
   }
-  const a=document.createElement("a");
-  a.href=URL.createObjectURL(new Blob([body],{type:"application/json"}));
-  a.download="catalog.json"; document.body.appendChild(a); a.click(); a.remove();
-  return "file";
+  throw new Error("не указаны репозиторий/токен (⚙)");
 }
 
 function debouncedSaveAndDraw(){
@@ -1509,21 +1517,16 @@ async function applyS(){
   return true;
 }
 document.getElementById("saveSettingsBtn").onclick=async()=>{ if(await applyS()){ draw(); flash(); } };
-document.getElementById("manualSaveBtn").onclick=async()=>{
-  clearTimeout(saveDebounceTimer);
-  await applyS(); await save();
-  try{
-    const how=await publish();
-    setDirty(false);
-    if(how==="same") flash();
-    else if(how==="file"){ const c=adminCfg(); const miss=[!c.repo?"репозиторий":"",!c.token?"токен":""].filter(Boolean).join(" и ");
-      await customAlert("⬇ catalog.json скачан, потому что в ⚙ на ЭТОМ устройстве не указан: "+miss+". Впиши и нажми сохранить — дальше публикация пойдёт сама. (Токен хранится отдельно на каждом устройстве/браузере.)"); }
-    else flash();
-  }catch(e){ await customAlert("✕ Не опубликовалось: "+(e&&e.message||e)); }
-};
 document.getElementById("aClose").onclick=async()=>{
-  if(dirty && !(await customConfirm("Изменения не опубликованы на витрину. Выйти всё равно?"))) return;
-  await applyS(); await save(); adminOpen=false; draw(); drawBar();
+  await applyS();
+  if(dirty){
+    const c=adminCfg(); clearTimeout(autoPubTimer);
+    if(c.repo && c.token){
+      try{ await publish(); setDirty(false); }     // выходим — публикуем сразу, не заставляя ждать таймер
+      catch(e){ if(!(await customConfirm("Не опубликовалось: "+(e&&e.message||e)+". Выйти всё равно?"))) return; }
+    } else if(!(await customConfirm("Репозиторий/токен не указаны — витрина не обновится. Выйти всё равно?"))) return;
+  }
+  await save(); adminOpen=false; draw(); drawBar();
   document.getElementById("adminScreen").classList.add("hidden");
   document.getElementById("storeWrap").classList.remove("hidden");
 };
