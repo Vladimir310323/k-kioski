@@ -17,7 +17,10 @@
     {
      "name": "Black Berry Raspberry + 3",
      "stock": 0,
-     "flavors": []
+     "flavors": [
+      "Black Berry Raspberry",
+      "Watermelon Cher"
+     ]
     },
     {
      "name": "новый",
@@ -81,5 +84,5 @@
   "telegram": "KIOSKI_support",
   "reviewsUrl": "https://t.me/KIOSKI_support"
  },
- "updated": "2026-10-22T18:01:10.960Z"
+ "updated": "2026-10-22T18:01:24.475Z"
 }
