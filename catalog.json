@@ -87,7 +87,12 @@
     {
      "name": "Strawberry Vanilla Coke + 3",
      "stock": 0,
-     "flavors": []
+     "flavors": [
+      "Strawberry Vanilla Coke",
+      "Pink Lemonade",
+      "Watermelon Ice",
+      "Cherry Berry"
+     ]
     }
    ],
    "tiers": [
@@ -152,5 +157,5 @@
   "telegram": "KIOSKI_support",
   "reviewsUrl": "https://t.me/KIOSKI_support"
  },
- "updated": "2026-10-22T18:23:06.093Z"
+ "updated": "2026-10-22T18:23:14.062Z"
 }
