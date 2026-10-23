@@ -59,7 +59,7 @@
    "variants": [
     {
      "name": "Black Berry Raspberry + 3",
-     "stock": 2,
+     "stock": 1,
      "flavors": [
       "Black Berry Raspberry",
       "Watermelon Cherry Ice",
@@ -79,7 +79,7 @@
     },
     {
      "name": "Strawberry Ice + 3",
-     "stock": 2,
+     "stock": 3,
      "flavors": [
       "Strawberry Ice",
       "Kiwi Passion Fruit Guava",
@@ -157,5 +157,5 @@
   "telegram": "KIOSKI_support",
   "reviewsUrl": "https://t.me/KIOSKI_support"
  },
- "updated": "2026-10-23T12:05:43.773Z"
+ "updated": "2026-10-23T12:06:08.093Z"
 }
