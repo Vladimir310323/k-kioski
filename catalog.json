@@ -3,14 +3,10 @@
   {
    "id": "p2",
    "name": {
-    "ru": "Marlboro ",
-    "en": "CIGARETTE PACK",
-    "fi": "TUPAKKA-ASKI"
+    "en": "Marlboro "
    },
    "desc": {
-    "ru": "",
-    "en": "",
-    "fi": ""
+    "en": ""
    },
    "image": "https://i.ibb.co/YB0QGWRZ/Edit-pixel-art-image-elements-2-K-20261025142414.jpg",
    "variants": [
@@ -46,14 +42,10 @@
   {
    "id": "p1",
    "name": {
-    "ru": "FIZZY SMART 150K",
-    "en": "FIZZY SMART 150K",
-    "fi": "FIZZY SMART 150K"
+    "en": "FIZZY SMART 150K"
    },
    "desc": {
-    "ru": "",
-    "en": "15 in 1 · 28ml · Type-C · LED",
-    "fi": "15 in 1 · 28ml · Type-C · LED"
+    "en": ""
    },
    "image": "https://i.ibb.co/393CNNv4/Redraw-bottom-row-icon-badges-2-K-20260915143837.jpg",
    "variants": [
@@ -157,5 +149,5 @@
   "telegram": "KIOSKI_support",
   "reviewsUrl": "https://t.me/KIOSKI_support"
  },
- "updated": "2026-10-25T12:28:03.175Z"
+ "updated": "2026-10-25T16:37:24.216Z"
 }
