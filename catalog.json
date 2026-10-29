@@ -135,8 +135,8 @@
      "flavors": []
     },
     {
-     "name": "",
-     "stock": 0,
+     "name": "Watermelon Ice + 3",
+     "stock": 2,
      "flavors": []
     }
    ],
@@ -159,5 +159,5 @@
   "telegram": "KIOSKI_support",
   "reviewsUrl": "https://t.me/KIOSKI_support"
  },
- "updated": "2026-10-29T16:19:54.923Z"
+ "updated": "2026-10-29T16:20:20.787Z"
 }
