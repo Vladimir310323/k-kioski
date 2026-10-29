@@ -152,7 +152,12 @@
     {
      "name": "Strawberry Kiwi + 3",
      "stock": 0,
-     "flavors": []
+     "flavors": [
+      "Strawberry Kiwi",
+      "Mixed Berry",
+      "Watermelon Bubble Gum",
+      "Juicy Peach"
+     ]
     },
     {
      "name": "new",
@@ -179,5 +184,5 @@
   "telegram": "KIOSKI_support",
   "reviewsUrl": "https://t.me/KIOSKI_support"
  },
- "updated": "2026-10-29T16:25:37.907Z"
+ "updated": "2026-10-29T16:25:46.675Z"
 }
