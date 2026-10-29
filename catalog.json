@@ -142,7 +142,12 @@
     {
      "name": "Watermelon Ice + 3",
      "stock": 2,
-     "flavors": []
+     "flavors": [
+      "Watermelon Ice",
+      "Red Bull",
+      "Strawberry Raspberry",
+      "Triple Melon Ice"
+     ]
     }
    ],
    "tiers": [
@@ -164,5 +169,5 @@
   "telegram": "KIOSKI_support",
   "reviewsUrl": "https://t.me/KIOSKI_support"
  },
- "updated": "2026-10-29T16:20:30.939Z"
+ "updated": "2026-10-29T16:20:40.505Z"
 }
