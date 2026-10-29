@@ -132,7 +132,12 @@
     {
      "name": "Sex On The Beach + 3",
      "stock": 2,
-     "flavors": []
+     "flavors": [
+      "Sex On The Beach",
+      "Strawberry Banana",
+      "Blue Razz Lemonade",
+      "Raspberry Watermelon"
+     ]
     },
     {
      "name": "Watermelon Ice + 3",
@@ -159,5 +164,5 @@
   "telegram": "KIOSKI_support",
   "reviewsUrl": "https://t.me/KIOSKI_support"
  },
- "updated": "2026-10-29T16:20:20.787Z"
+ "updated": "2026-10-29T16:20:30.939Z"
 }
