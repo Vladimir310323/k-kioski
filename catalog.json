@@ -51,7 +51,7 @@
    "variants": [
     {
      "name": "Black Berry Raspberry + 3",
-     "stock": 1,
+     "stock": 3,
      "flavors": [
       "Black Berry Raspberry",
       "Watermelon Cherry Ice",
@@ -169,5 +169,5 @@
   "telegram": "KIOSKI_support",
   "reviewsUrl": "https://t.me/KIOSKI_support"
  },
- "updated": "2026-10-29T16:20:40.505Z"
+ "updated": "2026-10-29T16:23:05.041Z"
 }
