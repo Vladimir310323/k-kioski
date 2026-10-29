@@ -133,7 +133,7 @@
    "tiers": [
     {
      "min": 1,
-     "price": 30
+     "price": 35
     },
     {
      "min": 10,
@@ -149,5 +149,5 @@
   "telegram": "KIOSKI_support",
   "reviewsUrl": "https://t.me/KIOSKI_support"
  },
- "updated": "2026-10-29T13:48:07.684Z"
+ "updated": "2026-10-29T13:48:39.535Z"
 }
