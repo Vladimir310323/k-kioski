@@ -143,30 +143,11 @@
    "stock": 0,
    "tag": "new",
    "wholesaleThreshold": 50
-  },
-  {
-   "id": "p1793290729750",
-   "name": {
-    "en": "NEW ITEM"
-   },
-   "desc": {
-    "en": ""
-   },
-   "image": "",
-   "variants": [],
-   "tiers": [
-    {
-     "min": 1,
-     "price": 0
-    }
-   ],
-   "stock": 0,
-   "tag": ""
   }
  ],
  "settings": {
   "telegram": "KIOSKI_support",
   "reviewsUrl": "https://t.me/KIOSKI_support"
  },
- "updated": "2026-10-29T16:18:53.751Z"
+ "updated": "2026-10-29T16:18:58.434Z"
 }
