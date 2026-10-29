@@ -148,6 +148,16 @@
       "Strawberry Raspberry",
       "Triple Melon Ice"
      ]
+    },
+    {
+     "name": "new",
+     "stock": 0,
+     "flavors": []
+    },
+    {
+     "name": "new",
+     "stock": 0,
+     "flavors": []
     }
    ],
    "tiers": [
@@ -169,5 +179,5 @@
   "telegram": "KIOSKI_support",
   "reviewsUrl": "https://t.me/KIOSKI_support"
  },
- "updated": "2026-10-29T16:23:22.753Z"
+ "updated": "2026-10-29T16:25:24.530Z"
 }
