@@ -61,7 +61,7 @@
     },
     {
      "name": "Blueberry Sour Raspberry + 3",
-     "stock": 5,
+     "stock": 7,
      "flavors": [
       "Blueberry Sour Raspberry",
       "Strawberry Watermelon",
@@ -169,5 +169,5 @@
   "telegram": "KIOSKI_support",
   "reviewsUrl": "https://t.me/KIOSKI_support"
  },
- "updated": "2026-10-29T16:23:05.041Z"
+ "updated": "2026-10-29T16:23:16.641Z"
 }
