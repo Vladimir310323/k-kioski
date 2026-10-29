@@ -130,12 +130,12 @@
      ]
     },
     {
-     "name": "new",
-     "stock": 0,
+     "name": "Sex On The Beach + 3",
+     "stock": 2,
      "flavors": []
     },
     {
-     "name": "new",
+     "name": "",
      "stock": 0,
      "flavors": []
     }
@@ -159,5 +159,5 @@
   "telegram": "KIOSKI_support",
   "reviewsUrl": "https://t.me/KIOSKI_support"
  },
- "updated": "2026-10-29T16:19:14.410Z"
+ "updated": "2026-10-29T16:19:54.923Z"
 }
