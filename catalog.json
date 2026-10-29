@@ -81,7 +81,7 @@
     },
     {
      "name": "Strawberry Kiwi Pomegranate + 3",
-     "stock": 0,
+     "stock": 20,
      "flavors": [
       "Strawberry Kiwi Pomegranate",
       "Red Bull",
@@ -91,7 +91,7 @@
     },
     {
      "name": "Love 66 + 3",
-     "stock": 0,
+     "stock": 20,
      "flavors": [
       "Love 66",
       "Strawberry Kiwi",
@@ -101,7 +101,7 @@
     },
     {
      "name": "Strawberry Raspberry + 3",
-     "stock": 0,
+     "stock": 20,
      "flavors": [
       "Strawberry Raspberry",
       "Pineapple Peach Passion Fruit",
@@ -111,7 +111,7 @@
     },
     {
      "name": "Fizzy Cherry + 3",
-     "stock": 0,
+     "stock": 20,
      "flavors": [
       "Fizzy Cherry",
       "Strawberry Dragon Fruit",
@@ -121,7 +121,7 @@
     },
     {
      "name": "Strawberry Vanilla Coke + 3",
-     "stock": 0,
+     "stock": 20,
      "flavors": [
       "Strawberry Vanilla Coke",
       "Pink Lemonade",
@@ -149,5 +149,5 @@
   "telegram": "KIOSKI_support",
   "reviewsUrl": "https://t.me/KIOSKI_support"
  },
- "updated": "2026-10-25T16:37:24.216Z"
+ "updated": "2026-10-29T13:46:56.308Z"
 }
