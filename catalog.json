@@ -162,7 +162,12 @@
     {
      "name": "Tropical Fruit Punch + 3",
      "stock": 0,
-     "flavors": []
+     "flavors": [
+      "Tropical Fruit Punch",
+      "Cherry Melon",
+      "Blueberry Ice",
+      "Strawberry Skittles"
+     ]
     }
    ],
    "tiers": [
@@ -184,5 +189,5 @@
   "telegram": "KIOSKI_support",
   "reviewsUrl": "https://t.me/KIOSKI_support"
  },
- "updated": "2026-10-29T16:25:58.371Z"
+ "updated": "2026-10-29T16:26:06.936Z"
 }
