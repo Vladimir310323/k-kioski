@@ -51,7 +51,7 @@
    "variants": [
     {
      "name": "Black Berry Raspberry + 3",
-     "stock": 3,
+     "stock": 1,
      "flavors": [
       "Black Berry Raspberry",
       "Watermelon Cherry Ice",
@@ -71,7 +71,7 @@
     },
     {
      "name": "Strawberry Ice + 3",
-     "stock": 4,
+     "stock": 2,
      "flavors": [
       "Strawberry Ice",
       "Kiwi Passion Fruit Guava",
@@ -91,7 +91,7 @@
     },
     {
      "name": "Love 66 + 3",
-     "stock": 20,
+     "stock": 18,
      "flavors": [
       "Love 66",
       "Strawberry Kiwi",
@@ -131,7 +131,7 @@
     },
     {
      "name": "Sex On The Beach + 3",
-     "stock": 2,
+     "stock": 0,
      "flavors": [
       "Sex On The Beach",
       "Strawberry Banana",
@@ -141,7 +141,7 @@
     },
     {
      "name": "Watermelon Ice + 3",
-     "stock": 2,
+     "stock": 0,
      "flavors": [
       "Watermelon Ice",
       "Red Bull",
@@ -189,5 +189,5 @@
   "telegram": "KIOSKI_support",
   "reviewsUrl": "https://t.me/KIOSKI_support"
  },
- "updated": "2026-10-29T16:26:06.936Z"
+ "updated": "2026-10-30T15:34:14.804Z"
 }
