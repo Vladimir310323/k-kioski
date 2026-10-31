@@ -24,15 +24,15 @@
    "tiers": [
     {
      "min": 1,
-     "price": 70
+     "price": 80
     },
     {
      "min": 4,
-     "price": 60
+     "price": 70
     },
     {
      "min": 10,
-     "price": 50
+     "price": 60
     }
    ],
    "stock": 0,
@@ -189,5 +189,5 @@
   "telegram": "KIOSKI_support",
   "reviewsUrl": "https://t.me/KIOSKI_support"
  },
- "updated": "2026-10-30T15:34:14.804Z"
+ "updated": "2026-10-31T17:55:16.898Z"
 }
