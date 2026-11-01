@@ -177,7 +177,7 @@
     }
    ],
    "stock": 0,
-   "tag": "new",
+   "tag": "",
    "wholesaleThreshold": 50
   }
  ],
@@ -185,5 +185,5 @@
   "telegram": "KIOSKI_support",
   "reviewsUrl": "https://t.me/KIOSKI_support"
  },
- "updated": "2026-11-01T20:36:42.702Z"
+ "updated": "2026-11-01T20:37:46.341Z"
 }
