@@ -121,7 +121,7 @@
     },
     {
      "name": "Strawberry Vanilla Coke + 3",
-     "stock": 20,
+     "stock": 19,
      "flavors": [
       "Strawberry Vanilla Coke",
       "Pink Lemonade",
@@ -189,5 +189,5 @@
   "telegram": "KIOSKI_support",
   "reviewsUrl": "https://t.me/KIOSKI_support"
  },
- "updated": "2026-11-01T20:05:40.475Z"
+ "updated": "2026-11-01T20:06:38.693Z"
 }
