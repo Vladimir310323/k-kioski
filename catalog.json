@@ -12,7 +12,7 @@
    "variants": [
     {
      "name": "Gold",
-     "stock": 0,
+     "stock": 100,
      "flavors": []
     },
     {
@@ -189,5 +189,5 @@
   "telegram": "KIOSKI_support",
   "reviewsUrl": "https://t.me/KIOSKI_support"
  },
- "updated": "2026-11-01T07:08:30.037Z"
+ "updated": "2026-11-01T20:05:40.475Z"
 }
