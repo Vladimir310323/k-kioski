@@ -107,7 +107,7 @@
     },
     {
      "name": "Fizzy Cherry + 3",
-     "stock": 10,
+     "stock": 9,
      "flavors": [
       "Fizzy Cherry",
       "Strawberry Dragon Fruit",
@@ -182,8 +182,7 @@
   }
  ],
  "settings": {
-  "telegram": "KIOSKI_support",
-  "reviewsUrl": "https://t.me/KIOSKI_support"
+  "telegram": "KIOSKI_support"
  },
- "updated": "2026-11-03T13:18:27.209Z"
+ "updated": "2026-11-03T13:59:08.589Z"
 }
