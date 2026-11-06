@@ -31,7 +31,7 @@
      "price": 60
     },
     {
-     "min": 1,
+     "min": 30,
      "price": 0
     }
    ],
@@ -188,5 +188,5 @@
  "settings": {
   "telegram": "KIOSKI_support"
  },
- "updated": "2026-11-06T00:31:04.919Z"
+ "updated": "2026-11-06T00:31:14.299Z"
 }
