@@ -6,7 +6,7 @@
     "en": "Marlboro "
    },
    "desc": {
-    "en": "BLOCK | KARTONKI "
+    "en": "KARTONKI | BLOCK"
    },
    "image": "img/mw2ntsvmchq1.jpg",
    "variants": [
@@ -184,5 +184,5 @@
  "settings": {
   "telegram": "KIOSKI_support"
  },
- "updated": "2026-11-06T00:31:43.460Z"
+ "updated": "2026-11-06T15:19:03.704Z"
 }
