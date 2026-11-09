@@ -87,7 +87,7 @@
     },
     {
      "name": "Love 66 + 3",
-     "stock": 4,
+     "stock": 3,
      "flavors": [
       "Love 66",
       "Strawberry Kiwi",
@@ -184,5 +184,5 @@
  "settings": {
   "telegram": "KIOSKI_support"
  },
- "updated": "2026-11-08T19:24:38.072Z"
+ "updated": "2026-11-09T13:48:10.379Z"
 }
