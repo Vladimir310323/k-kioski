@@ -97,7 +97,7 @@
     },
     {
      "name": "Strawberry Raspberry + 3",
-     "stock": 1,
+     "stock": 0,
      "flavors": [
       "Strawberry Raspberry",
       "Pineapple Peach Passion Fruit",
@@ -184,5 +184,5 @@
  "settings": {
   "telegram": "KIOSKI_support"
  },
- "updated": "2026-11-11T16:23:54.835Z"
+ "updated": "2026-11-11T17:24:21.882Z"
 }
