@@ -12,7 +12,7 @@
    "variants": [
     {
      "name": "Gold",
-     "stock": 50,
+     "stock": 49,
      "flavors": []
     },
     {
@@ -97,7 +97,7 @@
     },
     {
      "name": "Strawberry Raspberry + 3",
-     "stock": 4,
+     "stock": 3,
      "flavors": [
       "Strawberry Raspberry",
       "Pineapple Peach Passion Fruit",
@@ -184,5 +184,5 @@
  "settings": {
   "telegram": "KIOSKI_support"
  },
- "updated": "2026-11-10T16:08:19.750Z"
+ "updated": "2026-11-11T08:54:55.514Z"
 }
