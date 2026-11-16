@@ -103,15 +103,15 @@
    "tiers": [
     {
      "min": 1,
-     "price": 0
+     "price": 35
     },
     {
-     "min": 1,
-     "price": 0
+     "min": 10,
+     "price": 20
     }
    ],
    "stock": 0,
-   "tag": ""
+   "tag": "new"
   },
   {
    "id": "p1",
@@ -262,5 +262,5 @@
  "settings": {
   "telegram": "KIOSKI_support"
  },
- "updated": "2026-11-16T10:36:05.091Z"
+ "updated": "2026-11-16T10:36:17.967Z"
 }
