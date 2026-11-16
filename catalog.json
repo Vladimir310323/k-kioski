@@ -36,6 +36,25 @@
    "wholesaleThreshold": 15
   },
   {
+   "id": "p1794825034995",
+   "name": {
+    "en": "NEW ITEM"
+   },
+   "desc": {
+    "en": ""
+   },
+   "image": "",
+   "variants": [],
+   "tiers": [
+    {
+     "min": 1,
+     "price": 0
+    }
+   ],
+   "stock": 0,
+   "tag": ""
+  },
+  {
    "id": "p1",
    "name": {
     "en": "FIZZY SMART 150K"
@@ -184,5 +203,5 @@
  "settings": {
   "telegram": "KIOSKI_support"
  },
- "updated": "2026-11-12T09:54:44.462Z"
+ "updated": "2026-11-16T10:30:45.511Z"
 }
