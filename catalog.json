@@ -48,7 +48,9 @@
     {
      "name": "new",
      "stock": 0,
-     "flavors": []
+     "flavors": [
+      "Watermelon Ice / Strawberry Vanilla Coke /Mixed Berry"
+     ]
     }
    ],
    "tiers": [
@@ -209,5 +211,5 @@
  "settings": {
   "telegram": "KIOSKI_support"
  },
- "updated": "2026-11-16T10:32:15.326Z"
+ "updated": "2026-11-16T10:32:21.876Z"
 }
