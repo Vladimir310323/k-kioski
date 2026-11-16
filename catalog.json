@@ -38,7 +38,7 @@
   {
    "id": "p1794825034995",
    "name": {
-    "en": "NEW ITEM"
+    "en": "FIZZY 120K"
    },
    "desc": {
     "en": ""
@@ -57,7 +57,7 @@
   {
    "id": "p1",
    "name": {
-    "en": "FIZZY SMART 150K"
+    "en": "FIZZY SM 150K"
    },
    "desc": {
     "en": ""
@@ -203,5 +203,5 @@
  "settings": {
   "telegram": "KIOSKI_support"
  },
- "updated": "2026-11-16T10:30:45.511Z"
+ "updated": "2026-11-16T10:31:02.029Z"
 }
