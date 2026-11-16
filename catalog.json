@@ -93,7 +93,11 @@
     {
      "name": "new",
      "stock": 0,
-     "flavors": []
+     "flavors": [
+      "Love 66",
+      "Red Bull Watermelon",
+      "Strawberry Raspberry"
+     ]
     }
    ],
    "tiers": [
@@ -254,5 +258,5 @@
  "settings": {
   "telegram": "KIOSKI_support"
  },
- "updated": "2026-11-16T10:35:29.808Z"
+ "updated": "2026-11-16T10:35:46.284Z"
 }
