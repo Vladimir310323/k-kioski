@@ -57,7 +57,7 @@
   {
    "id": "p1",
    "name": {
-    "en": "FIZZY SM 150K"
+    "en": "FIZZY 150K"
    },
    "desc": {
     "en": ""
@@ -203,5 +203,5 @@
  "settings": {
   "telegram": "KIOSKI_support"
  },
- "updated": "2026-11-16T10:31:02.029Z"
+ "updated": "2026-11-16T10:31:11.074Z"
 }
