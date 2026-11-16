@@ -82,9 +82,12 @@
      ]
     },
     {
-     "name": "Coco Loco, Strawberry Kiwi",
+     "name": "Coco Loco + 2",
      "stock": 0,
-     "flavors": []
+     "flavors": [
+      "Coco LocoStrawberry Kiwi",
+      "Ice Mint"
+     ]
     }
    ],
    "tiers": [
@@ -245,5 +248,5 @@
  "settings": {
   "telegram": "KIOSKI_support"
  },
- "updated": "2026-11-16T10:35:10.404Z"
+ "updated": "2026-11-16T10:35:24.363Z"
 }
