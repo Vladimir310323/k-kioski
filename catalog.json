@@ -49,7 +49,9 @@
      "name": "new",
      "stock": 0,
      "flavors": [
-      "Watermelon Ice / Strawberry Vanilla Coke /Mixed Berry"
+      "Watermelon Ice",
+      "Strawberry Vanilla Coke",
+      "Mixed Berry"
      ]
     }
    ],
@@ -211,5 +213,5 @@
  "settings": {
   "telegram": "KIOSKI_support"
  },
- "updated": "2026-11-16T10:32:21.876Z"
+ "updated": "2026-11-16T10:32:36.619Z"
 }
