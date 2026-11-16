@@ -64,9 +64,13 @@
      ]
     },
     {
-     "name": "new",
+     "name": "Blueberry Raspberry + 2",
      "stock": 0,
-     "flavors": []
+     "flavors": [
+      "Blueberry Raspberry",
+      "Triple Melon",
+      "Strawberry Ice"
+     ]
     },
     {
      "name": "new",
@@ -232,5 +236,5 @@
  "settings": {
   "telegram": "KIOSKI_support"
  },
- "updated": "2026-11-16T10:33:29.494Z"
+ "updated": "2026-11-16T10:33:58.320Z"
 }
