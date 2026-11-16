@@ -73,9 +73,12 @@
      ]
     },
     {
-     "name": "new",
+     "name": "",
      "stock": 0,
-     "flavors": []
+     "flavors": [
+      "Strawberry Kiwi / Blueberry Ice",
+      "Watermelon Ice"
+     ]
     }
    ],
    "tiers": [
@@ -236,5 +239,5 @@
  "settings": {
   "telegram": "KIOSKI_support"
  },
- "updated": "2026-11-16T10:33:58.320Z"
+ "updated": "2026-11-16T10:34:16.639Z"
 }
