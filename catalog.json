@@ -46,13 +46,18 @@
    "image": "",
    "variants": [
     {
-     "name": "new",
+     "name": "Watermelon Ice + 2",
      "stock": 0,
      "flavors": [
       "Watermelon Ice",
       "Strawberry Vanilla Coke",
       "Mixed Berry"
      ]
+    },
+    {
+     "name": "new",
+     "stock": 0,
+     "flavors": []
     }
    ],
    "tiers": [
@@ -213,5 +218,5 @@
  "settings": {
   "telegram": "KIOSKI_support"
  },
- "updated": "2026-11-16T10:32:36.619Z"
+ "updated": "2026-11-16T10:32:51.414Z"
 }
