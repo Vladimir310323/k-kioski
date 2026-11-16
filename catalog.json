@@ -55,6 +55,20 @@
      ]
     },
     {
+     "name": "Strawberry Dragon Fruit + 2",
+     "stock": 0,
+     "flavors": [
+      "Strawberry Dragon Fruit",
+      "Red Bull",
+      "Raspberry Watermelon"
+     ]
+    },
+    {
+     "name": "new",
+     "stock": 0,
+     "flavors": []
+    },
+    {
      "name": "new",
      "stock": 0,
      "flavors": []
@@ -218,5 +232,5 @@
  "settings": {
   "telegram": "KIOSKI_support"
  },
- "updated": "2026-11-16T10:32:51.414Z"
+ "updated": "2026-11-16T10:33:29.494Z"
 }
