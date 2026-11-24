@@ -36,6 +36,85 @@
    "wholesaleThreshold": 15
   },
   {
+   "id": "p1794825034995",
+   "name": {
+    "en": "FIZZY 120K"
+   },
+   "desc": {
+    "en": ""
+   },
+   "image": "img/mwkym3z5hi4m.jpg",
+   "variants": [
+    {
+     "name": "Watermelon Ice + 2",
+     "stock": 0,
+     "flavors": [
+      "Watermelon Ice",
+      "Strawberry Vanilla Coke",
+      "Mixed Berry"
+     ]
+    },
+    {
+     "name": "Strawberry Dragon Fruit + 2",
+     "stock": 0,
+     "flavors": [
+      "Strawberry Dragon Fruit",
+      "Red Bull",
+      "Raspberry Watermelon"
+     ]
+    },
+    {
+     "name": "Blueberry Raspberry + 2",
+     "stock": 0,
+     "flavors": [
+      "Blueberry Raspberry",
+      "Triple Melon",
+      "Strawberry Ice"
+     ]
+    },
+    {
+     "name": "Strawberry Kiwi + 2",
+     "stock": 0,
+     "flavors": [
+      "Strawberry Kiwi",
+      "Blueberry Ice",
+      "Watermelon Ice"
+     ]
+    },
+    {
+     "name": "Coco Loco + 2",
+     "stock": 0,
+     "flavors": [
+      "Coco Loco",
+      "Strawberry Kiwi",
+      "Ice Mint"
+     ]
+    },
+    {
+     "name": "Love 66 + 2",
+     "stock": 0,
+     "flavors": [
+      "Love 66",
+      "Red Bull Watermelon",
+      "Strawberry Raspberry"
+     ]
+    }
+   ],
+   "tiers": [
+    {
+     "min": 1,
+     "price": 35
+    },
+    {
+     "min": 10,
+     "price": 20
+    }
+   ],
+   "stock": 0,
+   "tag": "new",
+   "shot": "hide"
+  },
+  {
    "id": "p1",
    "name": {
     "en": "FIZZY 150K"
@@ -180,88 +259,10 @@
    "tag": "sale",
    "wholesaleThreshold": 15,
    "shot": ""
-  },
-  {
-   "id": "p1794825034995",
-   "name": {
-    "en": "FIZZY 120K"
-   },
-   "desc": {
-    "en": ""
-   },
-   "image": "img/mwkym3z5hi4m.jpg",
-   "variants": [
-    {
-     "name": "Watermelon Ice + 2",
-     "stock": 0,
-     "flavors": [
-      "Watermelon Ice",
-      "Strawberry Vanilla Coke",
-      "Mixed Berry"
-     ]
-    },
-    {
-     "name": "Strawberry Dragon Fruit + 2",
-     "stock": 0,
-     "flavors": [
-      "Strawberry Dragon Fruit",
-      "Red Bull",
-      "Raspberry Watermelon"
-     ]
-    },
-    {
-     "name": "Blueberry Raspberry + 2",
-     "stock": 0,
-     "flavors": [
-      "Blueberry Raspberry",
-      "Triple Melon",
-      "Strawberry Ice"
-     ]
-    },
-    {
-     "name": "Strawberry Kiwi + 2",
-     "stock": 0,
-     "flavors": [
-      "Strawberry Kiwi",
-      "Blueberry Ice",
-      "Watermelon Ice"
-     ]
-    },
-    {
-     "name": "Coco Loco + 2",
-     "stock": 0,
-     "flavors": [
-      "Coco Loco",
-      "Strawberry Kiwi",
-      "Ice Mint"
-     ]
-    },
-    {
-     "name": "Love 66 + 2",
-     "stock": 0,
-     "flavors": [
-      "Love 66",
-      "Red Bull Watermelon",
-      "Strawberry Raspberry"
-     ]
-    }
-   ],
-   "tiers": [
-    {
-     "min": 1,
-     "price": 35
-    },
-    {
-     "min": 10,
-     "price": 20
-    }
-   ],
-   "stock": 0,
-   "tag": "new"
   }
  ],
  "settings": {
   "telegram": "KIOSKI_support"
  },
- "updated": "2026-11-24T13:12:32.177Z"
+ "updated": "2026-11-24T13:12:38.347Z"
 }
