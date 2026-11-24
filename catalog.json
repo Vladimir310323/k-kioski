@@ -255,13 +255,13 @@
     }
    ],
    "stock": 0,
-   "tag": "",
+   "tag": "sale",
    "wholesaleThreshold": 15,
-   "shot": "hide"
+   "shot": ""
   }
  ],
  "settings": {
   "telegram": "KIOSKI_support"
  },
- "updated": "2026-11-24T13:12:07.171Z"
+ "updated": "2026-11-24T13:12:27.375Z"
 }
