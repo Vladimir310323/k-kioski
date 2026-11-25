@@ -27,8 +27,12 @@
      "price": 75
     },
     {
-     "min": 10,
+     "min": 5,
      "price": 60
+    },
+    {
+     "min": 1,
+     "price": 0
     }
    ],
    "stock": 0,
@@ -264,5 +268,5 @@
  "settings": {
   "telegram": "KIOSKI_support"
  },
- "updated": "2026-11-24T18:32:56.508Z"
+ "updated": "2026-11-25T09:06:30.938Z"
 }
