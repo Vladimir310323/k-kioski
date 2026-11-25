@@ -262,11 +262,11 @@
    "stock": 0,
    "tag": "sale",
    "wholesaleThreshold": 15,
-   "shot": ""
+   "shot": "hide"
   }
  ],
  "settings": {
   "telegram": "KIOSKI_support"
  },
- "updated": "2026-11-25T23:04:17.255Z"
+ "updated": "2026-11-25T23:04:26.834Z"
 }
