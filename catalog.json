@@ -116,7 +116,7 @@
    ],
    "stock": 0,
    "tag": "new",
-   "shot": "hide"
+   "shot": ""
   },
   {
    "id": "p1",
@@ -268,5 +268,5 @@
  "settings": {
   "telegram": "KIOSKI_support"
  },
- "updated": "2026-11-25T17:00:24.133Z"
+ "updated": "2026-11-25T23:04:17.255Z"
 }
